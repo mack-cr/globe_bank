@@ -8,6 +8,7 @@
   <div id="main-menu">
     <h2>Main Menu</h2>
     <ul>
+      <!-- work because we used a relative path (no / at beginning)-->
       <li><a href="subjects/index.php">Subjects</a>
 
       </li>
