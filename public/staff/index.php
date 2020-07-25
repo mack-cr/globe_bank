@@ -9,7 +9,8 @@
     <h2>Main Menu</h2>
     <ul>
       <!-- work because we used a relative path (no / at beginning)-->
-      <li><a href="subjects/index.php">Subjects</a>
+      <li><a href=" <?php echo url_for('/staff/subjects/index.php');
+      ?>">Subjects</a>
 
       </li>
     </ul>
